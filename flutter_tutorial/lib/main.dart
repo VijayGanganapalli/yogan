@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './screens/list_dialog_screen.dart';
+import './screens/tabs_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lime
       ),
-      home: ListAndDialogScreen(),
+      home: TabsScreen(),
     );
   }
 }
